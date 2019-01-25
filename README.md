@@ -1,6 +1,7 @@
 # node-typescript-dockerfile
 node-typescript-dockerfile
 
+```
 FROM node  
 MAINTAINER choi  
 WORKDIR /app  
@@ -11,3 +12,4 @@ COPY ./ /app/
 RUN npm run build-ts  
 #RUN npm run serve  
 CMD ["npm", "run", "serve"]  
+```
